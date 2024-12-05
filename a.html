@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function disable() {
+            document.getElementById("mySelect").disabled=true;
+        }
+        function enable() {
+            document.getElementById("mySelect").disabled=false;
+        }
+ 
+    </script>
+</head>
+<body>
+    <!-- OPTION AND SELECT OBJECTS -->
+     <!-- Disable and Enable a dropdown list -->
+    <form>
+        <select id="Myselect">
+           <option>Reading</option>
+           <option>Singing</option>
+           <option>Watching Movies</option>
+           <option>Chatting</option>
+        </select>
+        <br><br>
+        <input  type="button" onclick="disable()" value="Disable List">
+        <input  type="button" onclick="Enable()" value="Enable List"
+
+    </form>
+</body>
+</html>

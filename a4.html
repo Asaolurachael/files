@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function changesize() {
+            document.getElementById("Myselect").size = 4;
+        }
+    </script>
+</head>
+<body>
+    <!-- OPTION AND SELECT OBJECTS-->
+     <!-- Trun the dropdown list into a multiline list -->
+    <form>
+        <select id="Myselect">
+            <option>Reading</option>
+            <option>Singing</option>
+            <option>Watching Movies</option>
+            <option>Chatting</option>
+        </select>
+
+        <input type="button" onclick="changesize()" value="changesize">
+    </form>
+</body>
+</html>

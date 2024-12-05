@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- FORM OBJECT -->
+     <!-- Find the value of each element in a form -->
+    <form id="frm1" accept-charset="150-8859">
+        First name: <input type="text" name="fname" value="Shalom">
+        <br>
+        Last name: <input type="text" name="lname" value="Sharon">
+        <br></br>
+    </form>
+
+    <p>Click "Try it"</p>
+    <button onclick="myFunction()">Try it</button>
+
+    <p id="class"></p>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("frm1").acceptCharset;
+            document.getElementById("class").innerHTML = x;
+        }
+    </script>
+</body>
+</html>

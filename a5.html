@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- BUTTON OBJECT -->
+     <!-- find the name of the button -->
+    <form id="frm1" action="/action_page.php">
+        <button id="btn1" name="subject" type="submit" value="Javascript">JAVASCRIPT</button>
+    </form>
+
+    <p>click on try it below</p>
+
+    <button onclick="myFunction()">Try it</button>
+
+    <p id="Class"</p>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("btn1").name;
+            document.getElementById("Class").innerHTML = x;
+        }
+    </script>
+</body>
+</html>
