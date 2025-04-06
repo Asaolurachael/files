@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kolix - Business Solutions</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background: #f8f8f8;
+        }
+
+        .navbar ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+
+        .navbar a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .sign-up {
+            background: purple;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .hero{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 60px 80px;
+            color: white;
+            background-color:grey;
+        }
+        .hero-text {
+            max-width: 500px;
+        }
+        .hero-text h2 { 
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+        .hero-text p {
+            font-size: 18px;
+             line-height: 1.6;
+        }
+        .hero-text button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: white;
+            color: #6c4ccf;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .image img {
+            width: 300px;
+            height: auto;
+        }
+        .hero + .hero {
+            margin-top: 40px;
+        }
+        .cta {
+            background: purple;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+  
+        .features, .stats, .benefits, .testimonials {
+            text-align: center; 
+            padding: 50px;
+        }
+
+        .features { 
+            display: flex;
+            justify-content: space-around;
+            background: #fff;
+        }
+
+        .feature-item {
+            width: 30%;
+        }
+
+        .stats {
+          display: grid;
+          grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+          gap: 20px;
+          background: #fff;
+          padding: 40px 20px;
+        }
+        .stats div{   
+            font-size: 1.2rem;
+            font-weight: bold;
+            background: grey;
+            padding: 50px;
+            border-radius: 10px;
+        }
+        .improve-section {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: purple;
+            color: #f8f8f8;
+            padding: 80px 40px;
+            flex-wrap: wrap;
+        }
+        .improve {
+            flex: 1;
+            text-align: center;
+        }
+        .improve img {
+            max-width: 300px;
+            width: 100%;
+            background-image: purple;
+        }
+        .section {
+            flex: 1;
+            padding: 20px;
+        }
+        .section h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+        .section button {
+            background-color: white;
+            color: #333;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 8px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .section button:hover {
+            background-color: #e0e0e0;
+        }
+        .benefit-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin: 20px 0;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #333;
+            color: white;
+        }
+        hr.line{
+            border: 1px dashed black;
+        }
+    </style>
+</head>
+<body>
+    <header class="navbar">
+        <h1>Kolix</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Project</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+        <button class="sign-up">Sign Up</button>
+    </header>
+    
+    <div class="hero">
+        <div class="hero-text">
+            <h2>Ready to scale-up your online business?</h2>
+            <p>We offer groundbreaking solutions for data protection and security.</p>
+            <button>Get Started</button>
+        </div>
+        <div class="image">
+        <img src="pics 7.png">
+        </div>
+    </div>
+    
+    <section class="features">
+        <div class="feature-item">
+            <img src="pics 11.png" alt="" width="100px" height="100px">
+            <h3>User Centric Design</h3>
+            <p>Experience and latest skills at Kolix.</p>
+        </div>
+        <div class="feature-item">
+            <img src="pics 4.png" alt="" width="100px" height="100px">
+            <h3>Security for Business</h3>
+            <p>Strong data security solutions.</p>
+        </div>
+        <div class="feature-item">
+            <img src="pics 9.png" alt="" width="100px" height="100px">
+            <h3>Web Development</h3>
+            <p>High-quality development services.</p>
+        </div>
+    </section>
+    <hr class="line">
+    <section class="leaders">
+        <h2 style="text-align: center;">World Acclaimed Field Leaders</h2>
+        <p style="text-align: center;">Backed with vast experience and up-to-date skills at Kolix. We offer groundbreaking solutions.</p>
+    </section>
+    <section class="stats">
+        <div>10+<br><small>Years of Experience</small></div>
+        <div>120+<br><small>Launched Products</small></div>
+        <div>2k<br><small>Happy Clients</small></div>
+        <div>20+<br><small>Experienced Developers</small></div>
+    </section>
+    <section class="improve-section">
+        <div class="improve">
+            <img src="pics 6.jpg" alt="" width="500">
+        </div>
+        <div class="section">
+        <h2>Improve Your Bottom Line with Our Scalable SaaS</h2>
+        <p>We offer groundbreaking solutions to enhance your business growth.</p>
+        <button>Get Started Now</button>
+        </div>
+    </section>
+    
+    <section class="benefits">
+        <h2>Experience the Key Benefits</h2>
+        <div class="benefit-item">
+            <span>1</span>
+            <h3>Explore the Features</h3>
+            <p>Experience and latest skills at Kolix.</p>
+        </div>
+        <div class="benefit-item">
+            <span>2</span>
+            <h3>Set Up Your Profile</h3>
+            <p>Experience and latest skills at Kolix.</p>
+        </div>
+        <img src="pics 8.png" alt="">
+    </section>
+    
+    <section class="testimonials">
+        <h2>Customer Testimonials</h2>
+        <p>We work with you to reach your desired results.</p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Kolix. All rights reserved.</p>
+    </footer>
+</body>
+</html>
